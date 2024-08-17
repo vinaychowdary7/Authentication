@@ -27,7 +27,7 @@ function Signup() {
             return handleError('Name,Email and Password are Required')
         }
         try{
-            const url="http://localhost:8080/auth/signup";
+            const url="https://authentication-vinay.vercel.app/auth/signup";
             const response=await fetch(url,{
                 method:"POST",
                 headers:{
